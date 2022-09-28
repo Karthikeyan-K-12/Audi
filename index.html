@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Audi World</title>
+   
+</head>
+<style>
+    #home .car_models{
+        padding-top: 80px;
+    }
+    #about {
+       
+        padding-top: 40px;
+    }
+
+    #type .type {
+        padding-top: 60px;
+    }
+
+    #models .card {
+        height: 50vh;
+    }
+
+    #models .img-fluid {
+        height: 40vh;
+    }
+
+    #models .model {
+        padding-top: 60px;
+    }
+
+    #upcoming .upcoming {
+        padding-top: 60px;
+    }
+    #contacts .contact{
+        padding-top: 60px;
+    }
+</style>
+
+<body style="background-color: rgb(0, 0, 0);">
+    <header>
+        <div class="top-bar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
+                        <nav class="navbar navbar-expand-lg fixed-top bg-dark">
+                            <a href="#home" class="navbar-brand">
+                                <img src="https://www.meme-arsenal.com/memes/2a429d7a07ef0974989995659000b177.jpg"
+                                    class="navbar-brand mx-2" alt="logo" height="40px" width="60px" title="AUDI WORLD">
+                            </a>
+                            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navigation">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                    <path
+                                        d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                                </svg>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navigation">
+                                <ul class="navbar-nav m-auto ">
+                                    <li><a class="nav-link" href="#home">Home</a></li>
+                                    <li><a class="nav-link" href="#about">About</a></li>
+                                    <li><a class="nav-link" href="#type">Type</a></li>
+                                    <li><a class="nav-link" href="#models">Models</a></li>
+                                    <li><a class="nav-link" href="#upcoming">Upcoming</a></li>
+                                    <li><a class="nav-link" href="#contacts">Contact</a></li>
+                                </ul>
+                                <button class="btn btn-success mx-1">LOG IN</button>
+                                <button class="btn btn-danger">SIGN UP</button>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="home">
+            <div class="car_models">
+                <div id="cars" class="carousel slide" data-bs="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://moottori.fi/wp-content/uploads/2019/09/audietrongt.jpg" alt="logo"
+                                class="d-block" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h1></h1>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.audi.com/content/dam/gbp2/models/1920x1080-desktop-models-teaser-A211437.jpg?imwidth=1920&imdensity=1"
+                                alt="logo" class="d-block" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h1></h1>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cdn.motor1.com/images/mgl/33jeK/s3/audi-e-tron-gt-quattro.jpg" alt="logo"
+                                class="d-block" style="width:100%;">
+                            <div class="carousel-caption">
+                                <h1></h1>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cars" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cars" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about_us">
+                <div class="container-fluid mt-3 ">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 border">
+                            <div class="jumbotron mt-5">
+                                <h1 class="mt-5 text-center text-white">ABOUT US</h1>
+                                <p class="text-center mt-3 text-white">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit. At, ratione. Harum enim non
+                                    voluptatum quae laboriosam voluptas ab,
+                                    debitis animi ipsa corporis veritatis voluptatibus voluptates at, architecto iste
+                                    quisquam repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Quibusdam animi veniam cupiditate saepe dicta nisi, nam dignissimos doloribus!
+                                    Tempora,
+                                    deserunt? Perspiciatis soluta obcaecati accusamus repellat recusandae et asperiores,
+                                    architecto accusantium.</p>
+                                <button class="btn btn-danger m-auto mb-2  text-white">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 border">
+                            <div class="car_1 mt-2 mb-2">
+                                <img src="https://www.driving.co.uk/wp-content/uploads/sites/5/2015/02/Audi-TT.jpg"
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="type">
+            <div class="container-fluid border">
+                <div class="row">
+                    <div class="type">
+                        <div class="col-lg-12 col-md-12 col-12">
+                            <img src="https://i.pinimg.com/736x/6a/75/66/6a7566b6e66d3bd5400892c2983cf1ef--audi-logos.jpg"
+                                class="mt-1" height="50vh" alt="logo">
+                            <h1 class="text-white">Type</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border">
+                        <div class="sedan">
+                            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/medium-8272-2022audie-trongt-1612968200.jpg?crop=1.00xw:0.891xh;0,0.0227xh&resize=480:*"
+                                class="mt-2" height="80%" width="100%">
+                            <h4 class="text-center text-white">Sedan</h4>
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+                                velit
+                                sunt eaque iure maiores corporis, non delectus veritatis possimus necessitatibus
+                                tempora,
+                                quo molestias. Laboriosam laudantium, similique officiis labore corrupti maiores?</p>
+                            <button class="btn btn-primary mb-2">Click To Register </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border">
+                        <div class="sport">
+                            <img src="https://c4.wallpaperflare.com/wallpaper/210/703/725/audi-audi-r8-v10-audi-r8-car-silver-car-hd-wallpaper-preview.jpg"
+                                class="mt-2" height="100%" width="100%">
+                            <h4 class="text-center text-white">Sport</h4>
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+                                velit
+                                sunt eaque iure maiores corporis, non delectus veritatis possimus necessitatibus
+                                tempora,
+                                quo molestias. Laboriosam laudantium, similique officiis labore corrupti maiores?</p>
+                            <button class="btn btn-primary mb-2">Click To Register</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border">
+                        <div class="suv">
+                            <img src="https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/94931/q7-facelift-left-front-three-quarter.jpeg?q=75"
+                                class="mt-2" height="100%" width="100%">
+                            <h4 class="text-center text-white">Suv</h4>
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+                                velit
+                                sunt eaque iure maiores corporis, non delectus veritatis possimus necessitatibus
+                                tempora,
+                                quo molestias. Laboriosam laudantium, similique officiis labore corrupti maiores?</p>
+                            <button class="btn btn-primary mb-2">Click To Register</button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 border">
+                        <div class="e-tron">
+                            <img src="https://audimediacenter-a.akamaihd.net/system/production/media/87433/images/46bb25600114b66450cc83368b626362f395ae8a/A1915306_x500.jpg?1582585953"
+                                class="mt-2" height="100%" width="100%">
+                            <h4 class="text-center text-white">e-tron</h4>
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
+                                velit
+                                sunt eaque iure maiores corporis, non delectus veritatis possimus necessitatibus
+                                tempora,
+                                quo molestias. Laboriosam laudantium, similique officiis labore corrupti maiores?</p>
+                            <button class="btn btn-primary text-white mb-2">Click To Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="models">
+            <div class="container-fluid border">
+                <div class="row">
+                    <div class="model">
+                        <div class="col-lg-12 col-12">
+                            <img src="https://i.pinimg.com/736x/6a/75/66/6a7566b6e66d3bd5400892c2983cf1ef--audi-logos.jpg"
+                                class="mt-1" height="50vh" alt="logo">
+                            <h1 class="text-white">MODELS</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 border">
+                        <div class="A4">
+                            <div class="card mt-5 mb-2">
+                                <img src="https://www.pngitem.com/pimgs/m/35-355519_audi-car-images-png-transparent-png.png"
+                                    alt="image" class="img-fluid">
+                                <h1 class="card-title">Audi A4</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 border">
+                        <div class="A8">
+                            <div class="card mt-5 mb-2">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuCGrwQPuJ-PRipRIx2XDxDVYBU5X3c4uSdQmLR_vVuSihDTgmja26I0aS0L0VLgXX3EI&usqp=CAU"
+                                    class="img-fluid" alt="image">
+                                <h1 class="card-title">Audi R8</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 border">
+                        <div class="A6">
+                            <div class="card mt-5 mb-2">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCUPSnJ-kIH5clMmn-cS43fmbmduutOo68TAUUy5_sVOR4BwdnZaeQPyTJhVfSbc-xtog&usqp=CAU"
+                                    alt="image" class="img-fluid">
+                                <h1 class="card-title">Audi A6</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 border">
+                        <div class="Q2">
+                            <div class="card mt-5 mb-2">
+                                <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Audi/Q3/6513/1661852142621/front-left-side-47.jpg"
+                                    alt="image" class="img-fluid">
+                                <h1 class="card-title">Audi Q2</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-2 border">
+                        <div class="Q3">
+                            <div class="card mt-5 mb-2">
+                                <img src="https://i.pinimg.com/736x/4d/de/fb/4ddefbcd5ac9b94ea7533bb9f8ae194f.jpg"
+                                    alt="image" class="img-fluid">
+                                <h1 class="card-title">Audi Q3</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-2 border">
+                        <div class="e-tron">
+                            <div class="card mt-5 mb-2">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu8-mrRlZNcvPD8tqRv2__CNKCzSX7MSRwCg&usqp=CAU"
+                                    alt="image" class="img-fluid">
+                                <h1 class="card-title">Audi e-tron</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-2 border">
+                        <div class="A8L">
+                            <div class="card mt-5 mb-2">
+                                <img src="https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2019/01/Complete-Audi-Buying-Guide-gear-patrol-A6.jpg?resize=480:*"
+                                    alt="image" class="img-fluid">
+                                <h1 class="card-title">Audi A8 L</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-2 border">
+                        <div class="Audi_a6">
+                            <div class="card mt-5 mb-2">
+                                <img src="https://www.motortrend.com/uploads/sites/11/2014/07/2014-Audi-A6-front-three-quarters1.jpg"
+                                    alt="image" class="img-fluid">
+                                <h1 class="card-title">Audi A6</h1>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="upcoming">
+            <div class="container-fluid border">
+                <div class="row">
+                    <div class="upcoming">
+                        <div class="col-12">
+                            <img src="https://i.pinimg.com/736x/6a/75/66/6a7566b6e66d3bd5400892c2983cf1ef--audi-logos.jpg"
+                                class="mt-1" height="50vh" alt="logo">
+                            <h1 class="text-white">UPCOMING CARS</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-2 border">
+                        <img src="https://static.autox.com/uploads/cars/2017/05/1483598489-new-audi-r8-v10-spyder-mm.jpg"
+                            class="mt-2" alt="image" height="95%" width="90%">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-2 border">
+                        <img src="http://www.autospyders.com/images/Audi%20Q5%202021.jpg" class="mt-2" alt="image"
+                            height="95%" width="90%">
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-2 border">
+                        <img src="https://www.carlogos.org/uploads/2021/best-audi-cars-ever-r8-series.jpg" class="mt-2"
+                            alt="image" height="95%" width="90%">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacts">
+        <div class="container-fluid border">
+            <div class="row">
+                <div class="contact">
+                    <div class="col-12">
+                        <img src="https://i.pinimg.com/736x/6a/75/66/6a7566b6e66d3bd5400892c2983cf1ef--audi-logos.jpg"
+                            class="mt-1" height="50vh" alt="logo">
+                        <h1 class="text-white">CONTACTS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 border">
+                    <img src="https://pictures.dealer.com/b/bramanaudiaoa/1587/9c31b5e293111724a1d6fbfffcfa97d8x.jpg?impolicy=downsize&w=568"
+                        alt="image" class="img-fluid mt-5">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 border">
+                    <form class="border text-white mt-2">
+                        <h2 class="text-center mt-4">BOOK YOUR CAR</h2>
+                        <input type="search" class="form-control mt-2 mx-2 w-75" placeholder="search">
+                        <input type="name" class="form-control mt-2 mx-2 w-75" placeholder="Enter name">
+                        <input type="email" class="form-control mt-2 mx-2 w-75" placeholder="E-mail">
+                        <button class="btn btn-primary mt-3 mx-2 mb-2">Submit</button>
+                    </form>
+                    <h4 class="text-white mt-1">Follow On</h4>
+                    <a href="#" class="mx-2"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="mx-2"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#" class="mx-2"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="row border">
+                <div class="col-12 border">
+                    <div class="copyright">
+                        <hr style="height: 4px; color: rgb(255, 255, 255);">
+                        <div class="copyrights text-center">
+                            <h5>| copyright@<span class="text-primary">audiworld</span>|</h5>
+                        </div>
+                        <hr style="height: 4px; color: white;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
